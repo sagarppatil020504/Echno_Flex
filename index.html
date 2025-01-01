@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Investment Calculator</title>
+</head>
+<body>
+    <h1>Bank Investment Calculator</h1>
+    <form action="/calculate" method="POST">
+        <label for="investment_type">Investment Type:</label>
+        <select name="investment_type" id="investment_type">
+            <option value="Savings Account">Savings Account</option>
+            <option value="Fixed Deposit">Fixed Deposit</option>
+            <option value="Recurring Deposit">Recurring Deposit</option>
+        </select><br><br>
+
+        <!-- Common Inputs -->
+        <div>
+            <label for="principal">Principal Amount ($):</label>
+            <input type="number" name="principal" step="0.01"><br>
+            <label for="rate">Annual Interest Rate (%):</label>
+            <input type="number" name="rate" step="0.01"><br>
+            <label for="time">Time (Years or Months):</label>
+            <input type="number" name="time"><br>
+        </div>
+
+        <div id="recurring_deposit_inputs" style="display: none;">
+            <label for="monthly_deposit">Monthly Deposit ($):</label>
+            <input type="number" name="monthly_deposit" step="0.01"><br>
+            <label for="months">Term (Months):</label>
+            <input type="number" name="months"><br>
+        </div>
+
+        <button type="submit">Calculate</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
