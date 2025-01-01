@@ -1,0 +1,17 @@
+flask
+flask_cors
+numpy
+streamlit
+requests
+pandas 
+numpy
+matplotlib
+torch
+yfinance
+keras
+newsapi
+textblob
+sklearn
+schedule
+tensorflow
+transformer
