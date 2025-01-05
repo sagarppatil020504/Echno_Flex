@@ -75,7 +75,7 @@ def gold_data():
     # data consists of actual_prices, sentiment_score ,predicted_prices ,future_predictions
     return jsonify({
         "actual_prices": data[0],
-        "sentiment_score": data[1] ,
+        "sentiment_score": data[1] ,+
         "predicted_prices": data[2],
         "future_predictions": data[3]
     })
