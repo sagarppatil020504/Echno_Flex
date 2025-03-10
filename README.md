@@ -1,27 +1,35 @@
-Inspiration
-The downfall of Hong Kong's economy (stock prices) in recent days has left investors in distress ,so I have developed the DNN LSTM model to predict the price for next 3-5 days and some more add-ons which tend to support that kind of idea People are afraid of investment in stocks and don't have much knowledge on investment and handling money .
+### 🌟 Echno-Flex: A Financial Forecasting Solution 🚀  
 
-What it does
-My project was focused on gold and stock price prediction as they are two important pillars of the financial condition. It checks the live sentiment in the market of that particular company and predicts what could be the stocks of next 30 interval
+#### **💡 Inspiration**  
+The recent **downturn in Hong Kong's stock market 📉** has left investors uncertain, highlighting the growing **fear and lack of financial literacy** in stock investments. To address this, I developed a **DNN-LSTM model 🤖📊** that predicts stock prices for the next **3 to 5 days**. Additionally, I incorporated **sentiment analysis 💬** to assess the market's perception of specific companies, helping investors make informed decisions.  
 
-How we built it
-I built it using streamlit and a bit of css with flask as API with Colab effort for training a LSTM model
+#### **📌 What It Does**  
+Echno-Flex is designed to forecast both **gold 🏆 and stock prices 📈**, two critical pillars of the financial market. It not only predicts future stock trends at **30-interval time steps** but also analyzes **live market sentiment**, providing a **holistic view of investment risks and opportunities**.  
 
-Challenges we ran into
-Building it in 5 days Tried to train an LLM model (llama2) for the role of assistant . The last minute challenge was the api call to the colab which failed so I had push it to my drive and then to the take the csv file from it
+#### **🛠️ How It Was Built**  
+The project was developed using **Streamlit 🖥️** for the frontend, **Flask 🌐** for the API, and **Google Colab 🤖** for training the LSTM model. A combination of **CSS 🎨** and **Google Drive ☁️** was used to enhance the UI and manage datasets efficiently.  
 
-Accomplishments that we're proud of
-I was able to do in time a bit of incompleteness is there as
+#### **⚠️ Challenges Faced**  
+Building this project within a **tight 5-day deadline ⏳** was a major challenge. Initially, I attempted to train an **LLM model (LLaMA2) 🦙** as a financial assistant but faced constraints. Another **last-minute issue ⏱️** arose when an **API call to Colab failed**, requiring me to **push the model output to Google Drive 📂** and retrieve the CSV manually.  
 
-What we learned
-I learnt to do basic API calls and LSTM model for this purpose
+#### **🏆 Accomplishments**  
+Despite **time constraints**, I successfully developed a working **prototype ✅**. While some refinements remain, the project **achieved its core objectives**—demonstrating the feasibility of **AI-driven financial forecasting**.  
 
-What's next for Echno-Flex
-Deploy a full end to end web app that can solve any financial related issue.
+#### **🎓 Lessons Learned**  
+Through this project, I gained **hands-on experience** in **API development 🔗**, **LSTM-based time series forecasting 📈**, and the **integration of AI with financial data 💰**. It also strengthened my **problem-solving skills** in handling real-time data and deployment challenges.  
 
-Built With
-css3
-drive
-flask
-python
-streamlit
+#### **👨‍🏫 The Role of My Mentor**  
+Throughout this journey, I was **guided and mentored** by **Rahul H Shettgar 🤝**, whose expertise and insights played a **crucial role** in shaping the project. His mentorship **helped me navigate technical roadblocks** and refine the model's implementation.  
+
+#### **🚀 What’s Next for Echno-Flex?**  
+The ultimate vision is to develop a **comprehensive financial web application 🌍💰** that can assist users in **investment planning 📊, risk analysis 📉, and real-time market predictions ⏳**. Future enhancements will include **broader asset coverage, improved AI models, and user-friendly financial insights**.  
+
+#### **🛠️ Tech Stack Used**  
+- **Python 🐍** (for model training and API)  
+- **LSTM (Deep Learning Model 🤖)**  
+- **Flask 🌐** (Backend API)  
+- **Streamlit 🖥️** (Frontend UI)  
+- **CSS3 🎨** (UI Styling)  
+- **Google Drive ☁️** (Data Management)  
+
+This project marks a **step toward bridging the gap between AI 🤖 and finance 💰**, empowering individuals with **smarter investment insights 📊🚀**.
